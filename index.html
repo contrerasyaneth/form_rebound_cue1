@@ -8,73 +8,71 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <h1>Inscribete</h1>
+    <h1 class="titulo">INSCRIBETE</h1>
     <section class="seccion">
-      <div>
-        <form>
-          <div>
-            <label for="nombre">NOMBRE</label>
-            <input
-              type="email"
-              placeholder="nombre"
-              required
-              class="name"
-              id="name"
-            />
+      <form id="forma">
+        <div>
+          <label class="label" for="nombre">NOMBRE</label>
+          <input
+            type="email"
+            placeholder="nombre"
+            required
+            class="input"
+            name="name"
+            id="name"
+          />
 
-            <label for="">CORREO</label>
-            <input
-              type="email"
-              placeholder="correo"
-              required
-              name="email"
-              class="input"
-              id="email"
-            />
-          </div>
+          <label class="label" for="">CORREO</label>
+          <input
+            type="email"
+            placeholder="correo"
+            required
+            name="email"
+            class="input"
+            id="email"
+          />
+        </div>
 
-            <label for="">TRABAJO</label>
-            <input 
+        <div>
+          <label class="label" for="">TRABAJO</label>
+          <input
             type="text"
             placeholder="trabajo"
             required
             class="input"
             name="trabajo"
             id="trabajo"
-            />
-            
+          />
 
-            <label for="">TELEFONO</label>
-            <input 
+          <label class="label" for="">TELEFONO</label>
+          <input
             type="text"
             placeholder="telefono"
             required
             class="input"
             name="telefono"
             id="telefono"
-            />
-          </div>
+          />
+        </div>
 
+        <label class="label" for="">SOBRE TI</label>
+        <input
+          type="text"
+          placeholder="sobre ti"
+          required
+          class="input1"
+          name="about"
+          id="about"
+        />
 
-          <label for="">SOBRE TI</label>
-            <input 
-            type="text"
-            placeholder="sobre mi"
-            required
-            class="input1"
-            name="about"
-            id="about"
-            />
-          <div class="caja">
-            <input type="submit" class="boton"/>
-          </div>
-        </form>
+        <div class="caja">
+          <input type="submit" class="boton" />
+        </div>
+      </form>
     </section>
 
     <footer>
-      <div id="contenedor">
-     
-      </div>
+      <div id="contenedor"></div>
     </footer>
     <!--Mi hoja de JS-->
     <script src="./index.js"></script>
