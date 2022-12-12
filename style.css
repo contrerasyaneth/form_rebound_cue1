@@ -50,4 +50,21 @@ justify-content: center;
   padding: 5px;
 }
 
+/*
+estilo para mi footer
+*/
+
+.caja-1{
+  width: 20%;
+ background: rgb(146,14,175);
+ background: linear-gradient(90deg, rgba(146,14,175,1) 0%, rgba(104,82,172,1) 52%, rgba(172,82,169,1) 80%); 
+}
+.parrafo{
+  color: beige;
+  text-align: center;
+}
+.img{
+  margin-left: 30%;
+}
+
 
